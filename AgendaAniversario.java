@@ -222,6 +222,5 @@ public class AgendaAniversario {
         } catch (Exception e) {
             System.out.println("\nErro:" + e);
         }
-
     }
 }
