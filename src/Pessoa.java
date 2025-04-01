@@ -34,8 +34,15 @@ public class Pessoa {
         this.email = email;
     }
 
+    public Data getDataDeAniversario() {
+        return this.dataDeAniversario;
+    }
+    public void setDataDeAniversario(Data dataAniv) {
+        this.dataDeAniversario = dataAniv;
+    }
+
     public String toString() {
-        return this.nome + "\t" + this.telefone + "\t" + this.email + "\t" + this.dataDeAniversario.dia+"/"+this.dataDeAniversario.mes;
+        return "Nome: " + this.nome + "\t Telefone: " + this.telefone + "\t Email: " + this.email + "\t Data Aniv: " + this.dataDeAniversario.dia+"/"+this.dataDeAniversario.mes;
     } 
 
 
